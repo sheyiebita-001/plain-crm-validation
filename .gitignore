@@ -1,0 +1,44 @@
+# dependencies
+/node_modules
+/.pnp
+.pnp.*
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# env files — never commit
+.env
+.env*.local
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# testing
+/coverage
+
+# Local secrets - NEVER commit
+plain-crm-secrets.txt
+*.secrets.txt
+*-secrets.txt
