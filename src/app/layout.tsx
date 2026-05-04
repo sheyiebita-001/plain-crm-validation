@@ -2,8 +2,9 @@ import type { Metadata } from 'next';
 import './globals.css';
 
 export const metadata: Metadata = {
-  title: 'trysignalbench.com',
-  description: 'Feedback site on CRM pricing pain points',
+  title: 'Try Signal Bench',
+  description:
+    'Researching a flat-priced CRM alternative to HubSpot. Help shape what gets built.',
 };
 
 export default function RootLayout({
@@ -13,7 +14,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="antialiased">{children}</body>
+      <body className="bg-stone-50 font-sans text-neutral-900 antialiased">
+        {children}
+      </body>
     </html>
   );
 }
